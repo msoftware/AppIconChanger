@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.w3logistics.app_icon_changer", appContext.getPackageName());
+        assertEquals("com.jentsch.app_icon_changer", appContext.getPackageName());
     }
 }
