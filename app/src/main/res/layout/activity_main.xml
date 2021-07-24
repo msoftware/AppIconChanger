@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/moon1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="Moon1"
+        android:onClick="onMoonClick"
+        app:srcCompat="@drawable/ic_emoji_u1f311" />
+
+    <ImageView
+        android:id="@+id/moon2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="Moon2"
+        android:onClick="onMoonClick"
+        app:srcCompat="@drawable/ic_emoji_u1f312" />
+
+    <ImageView
+        android:id="@+id/moon3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="Moon3"
+        android:onClick="onMoonClick"
+        app:srcCompat="@drawable/ic_emoji_u1f313" />
+
+    <ImageView
+        android:id="@+id/moon4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="Moon4"
+        android:onClick="onMoonClick"
+        app:srcCompat="@drawable/ic_emoji_u1f314" />
+
+    <ImageView
+        android:id="@+id/moon5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="Moon5"
+        android:onClick="onMoonClick"
+        app:srcCompat="@drawable/ic_emoji_u1f315" />
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jentsch.app_icon_changer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppIconChanger">
+        <activity android:name="com.jentsch.app_icon_changer.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:label="Moon 1"
+            android:icon="@drawable/ic_emoji_u1f311"
+            android:name=".Moon1"
+            android:enabled="true"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:label="Moon 2"
+            android:icon="@drawable/ic_emoji_u1f312"
+            android:name=".Moon2"
+            android:enabled="false"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:label="Moon 3"
+            android:icon="@drawable/ic_emoji_u1f313"
+            android:name=".Moon3"
+            android:enabled="false"
+            android:targetActivity="com.jentsch.app_icon_changer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:label="Moon 4"
+            android:icon="@drawable/ic_emoji_u1f314"
+            android:name=".Moon4"
+            android:enabled="false"
+            android:targetActivity="com.jentsch.app_icon_changer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:label="Moon 5"
+            android:icon="@drawable/ic_emoji_u1f315"
+            android:name=".Moon5"
+            android:enabled="false"
+            android:targetActivity="com.jentsch.app_icon_changer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+    </application>
+
+</manifest>
